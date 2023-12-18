@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    height: 100vh;
+    /* Make the body take up the entire viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    /* Set a background color */
+}
+
+.input::-webkit-input-placeholder {
+    font-family: 'Courier New', monospace;
+    color: #fff;
+}
+
+.input:-ms-input-placeholder {
+    font-family: 'Courier New', monospace;
+    color: #fff;
+}
+
+.input:-moz-placeholder {
+    font-family: 'Courier New', monospace;
+    color: #fff;
+}
+
+.input::-moz-placeholder {
+    color: #fff;
+    font-family: 'Courier New', monospace;
+}
+
+.input {
+    color: #fff;
+    font-family: 'Courier New', monospace;
+
+}
+
+.ascii-art {
+    font-family: monospace;
+    white-space: pre;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.terminal {
+    width: 80%;
+    max-width: 600px;
+    /* Limit the width for better readability on large screens */
+    height: 60%;
+    max-height: 400px;
+    /* Limit the height for better readability on large screens */
+    background-color: black;
+    color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.terminal-header {
+    background-color: #fff;
+    padding: 5px;
+}
+
+.terminal-button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.terminal-body {
+    padding: 10px;
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+#output {
+    margin-bottom: 10px;
+}
+
+#command-input {
+    width: 100%;
+    padding: 5px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
