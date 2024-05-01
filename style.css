@@ -59,6 +59,8 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .terminal-header {
@@ -93,3 +95,14 @@ body {
     outline: none;
     font-size: 16px;
 }
+
+a:link, a:active, a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: limegreen;
+}
+  
