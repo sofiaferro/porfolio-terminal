@@ -2,49 +2,15 @@ body {
     margin: 0;
     font-family: 'Courier New', monospace;
     height: 100vh;
-    /* Make the body take up the entire viewport height */
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #000;
-    /* Set a background color */
-}
-
-.input::-webkit-input-placeholder {
-    font-family: 'Courier New', monospace;
-    color: #fff;
-}
-
-.input:-ms-input-placeholder {
-    font-family: 'Courier New', monospace;
-    color: #fff;
-}
-
-.input:-moz-placeholder {
-    font-family: 'Courier New', monospace;
-    color: #fff;
-}
-
-.input::-moz-placeholder {
-    color: #fff;
-    font-family: 'Courier New', monospace;
-}
-
-.input {
-    color: #fff;
-    font-family: 'Courier New', monospace;
-
 }
 
 .ascii-art {
     font-family: monospace;
     white-space: pre;
-}
-
-.input-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 .terminal {
@@ -96,13 +62,8 @@ body {
     font-size: 16px;
 }
 
-a:link, a:active, a:visited {
+a {
   color: #fff;
   text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-  color: limegreen;
 }
   
